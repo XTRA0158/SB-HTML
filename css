@@ -1,0 +1,71 @@
+.inputwrapper {
+    display: inline-block;
+    background: linear-gradient(to top,hsl(235 100% 50% / 1) 0,hsla(200,50%,0%,1) 20%,hsla(200,50%,0%,1) 60%,hsl(235 100% 50% / 1) 100%);
+    box-shadow: 0 0 20px 20px hsl(235 100% 50% / 1);
+    text-shadow: 0 0 20px hsl(235 100% 50% / 1);
+    border-radius: 4px;
+    height: 43px;
+    margin-top: 10px;
+    position: relative;
+    max-width: 100%;
+}
+
+.playbtn i {
+    padding: 0 10px;
+    font-size: 2em;
+    vertical-align: middle;
+    font-family: normal normal normal 14px/1 FontAwesome;
+    margin: 9px 10px 0 10px;
+    cursor: pointer;
+    color: hsl(235 100% 50% / 1);
+    text-align: center;
+    text-shadow: 0 0 20px hsl(235 100% 50% / 1);
+}
+
+#player button {
+    padding: 10px 60px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsl(235 100% 50% / 10) 150%);
+    box-shadow: 0 0 20px 20px hsl(235 100% 50% / 1);
+    text-shadow: 0 0 7px hsl(235 100% 50% / 1);
+    color: hsl(235 100% 100% / 1);
+    font-family: Play,Verdana;
+    border: 0;
+}
+
+.followtools a, .followtools a:visited {
+    display: inline-block;
+    background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsl(235 100% 50% / 1) 150%);
+    box-shadow: 0 0 20px 20px hsl(235 100% 50% / 1);
+    color: hsl(200 100% 100% / 1);
+    border-radius: 0;
+    padding: 7px;
+    margin: 4px;
+    position: relative;
+}
+
+.followtools a.gold, .followtools a.gold:visited, #donate_mobile {
+    text-shadow: 0 0 20px hsl(235 100% 50% / 1);
+    background: radial-gradient(ellipse at center,hsla(20,50%,0%,1) 0,hsl(235 100% 50% / 1) 150%);
+    box-shadow: 0 0 20px 20px hsl(235 100% 50% / 1);
+    color: hsl(235 100% 100% / 1);
+}
+
+.social i, .mobile-social i, .mobile-tools i, .stats i {
+    background: rgba(0,0,0,.6);
+    padding: 5px;
+    font-size: 1.4em;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    background: radial-gradient(ellipse at center,hsla(200,50%,0%,1) 0,hsl(235 100% 50% / 1) 150%);
+    box-shadow: 0 0 20px 20px hsl(235 100% 50% / 1);
+    text-shadow: 0 0 7px hsl(235 100% 50% / 1;color: hsl(235 100% 50% / 1);8);
+}
